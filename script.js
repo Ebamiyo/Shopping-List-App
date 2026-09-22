@@ -20,9 +20,7 @@ sumbitButton.addEventListener("click", (event) => {
     button.textContent = "Delete";
     ul.appendChild(li);
     shoppingInput.value = ""; //clear the input field
-    if (shoppingList.length === 0) {
-      para.textContent = "Your shopping list is empty";
-    } else if (shoppingList.length === 1) {
+    if (shoppingList.length === 1) {
       para.textContent = `You have ${shoppingList.length} item in your shopping list`;
     } else
       para.textContent = `You have ${shoppingList.length} items in your shopping list`;
