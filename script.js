@@ -56,6 +56,6 @@ sumbitButton.addEventListener("click", (event) => {
     para2.textContent = "Enter a text";
     section.insertBefore(para2, para); //place para2 before para
   }
-
+  shoppingInput.focus();
   console.log(shoppingList);
 });
