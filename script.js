@@ -18,6 +18,8 @@ sumbitButton.addEventListener("click", (event) => {
     li.append(span, button);
     span.textContent = shoppingInput.value;
     button.textContent = "Delete";
+    li.style.marginBottom = "0.5rem";
+    span.style.marginRight = "0.5rem";
     ul.appendChild(li);
     shoppingInput.value = ""; //clear the input field
     if (shoppingList.length === 1) {
